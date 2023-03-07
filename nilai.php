@@ -7,7 +7,7 @@
         $nilai_uts = $_POST['nilai_uts'];
         $nilai_uas = $_POST['nilai_uas'];
         $nilai_tugas = $_POST['nilai_tugas'];
-        $nilai_rata = ($nilai_uts + $nilai_uas + $nilai_uas) /3;
+        $nilai_rata = ($nilai_uts + $nilai_uas + $nilai_tugas) /3;
         $keterangan = kelulusan ($nilai_rata);
         $grade = grade ($nilai_rata);
 
